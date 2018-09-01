@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Text from './Text';
 import registerServiceWorker from './registerServiceWorker';
+import PrincipalTb from './Table';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Text />, document.getElementById('logo'));
+ReactDOM.render(<PrincipalTb />, document.getElementById('table'));
 registerServiceWorker();
