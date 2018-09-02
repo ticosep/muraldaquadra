@@ -1,0 +1,8 @@
+
+.newgamecon{
+    margin: auto;
+    background-color: #FFCC00;
+    border-radius: .25rem;
+    height: 60vh;
+    display: flex;
+}

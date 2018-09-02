@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table } from 'react-bootstrap';
+import './tbl.css';
 
 class PrincipalTb extends Component {
     render(){
@@ -7,32 +7,15 @@ class PrincipalTb extends Component {
             <table class="table table-hover">
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th  className = "rowprinc" scope="col">Data</th>
+                <th  className = "rowprinc" scope="col">Hora</th>
+                <th  className = "rowprinc" scope="col">Esporte</th>
+                <th  className = "rowprinc" scope="col">Local</th>
+                <th  className = "rowprinc" scope="col">Jogadores</th>
+                <th  className = "rowprinc" scope="col">Entrar</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-            </tbody>
-          </table>
+           </table>
         );
     }
 }
