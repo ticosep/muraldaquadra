@@ -1,2 +1,2 @@
-Project for sports
+Project for sports made with react, bootstrap
 
